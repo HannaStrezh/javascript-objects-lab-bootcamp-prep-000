@@ -6,5 +6,5 @@ function updateObjectWithKeyAndValue(object, key, value){
   return object
 }// it is destructive because it adds a state //of the object
 function updateObjectWithKeyAndValue(object, key, value){
-  var object2 = Object.assign({})
+  var object2 = Object.assign({},object)
 }
