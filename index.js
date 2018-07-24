@@ -11,6 +11,7 @@ function updateObjectWithKeyAndValue(object, key, value){
   //need {}, as an argument to assign //function
 }
 function destructivelyUpdateObjectWithKeyAndValue (object, key, value){
-  object[key] = value
+  object[key] = value// NOTATION IN THE //BRACKETS
   return object;
 }
+function 
